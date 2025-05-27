@@ -1,0 +1,50 @@
+.student-card {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 420px;
+  margin: 30px auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.student-card .head {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.student-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.student-card .data {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #222;
+}
+
+.student-card p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.student-card ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.student-card li {
+  font-size: 16px;
+  margin: 4px 0;
+  color: #444;
+}
