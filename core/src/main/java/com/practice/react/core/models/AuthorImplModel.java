@@ -26,12 +26,10 @@ public class AuthorImplModel implements Author{
     public String getExportedType() {
         return AuthorImplModel.RESOURCE_TYPE;
     }
-
     @Override
     public String getName() {
         return name;
     }
-
     @Override
     public int getAge() {
         return age;

@@ -22,6 +22,10 @@ import './Author/Author';
 import './Student/Student';
 import './NavigationMenu/Navigation_Menu';
 import './Footer/Footer';
+import './BhasakaHarvestKits/Kits';
+import './User/User';
+import './Product/Product';
+import './Vehicle/Vehicle';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
