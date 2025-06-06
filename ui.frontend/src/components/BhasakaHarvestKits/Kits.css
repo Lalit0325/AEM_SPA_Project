@@ -1,0 +1,49 @@
+.kits-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 10px 20px 10px; 
+}
+
+.kit-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.kit-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.kit-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.kit-content {
+  padding: 16px;
+}
+
+.kit-title {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.kit-description {
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: #666;
+}
+
+.kit-features {
+  list-style: disc inside;
+  padding-left: 0;
+  color: #444;
+}
