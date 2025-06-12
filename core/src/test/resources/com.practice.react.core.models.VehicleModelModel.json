@@ -1,0 +1,43 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "cfPath": "/content/dam/wknd-spa-react/content-fragments/products",
+  "type": "wknd-spa-react/components/vehicle",
+  "dam": {
+    "wknd-spa-react": {
+      "content-fragments": {
+        "products": {
+          "item0": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:content": {
+              "data": {
+                "master": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "productName": "KTM Bike",
+                  "available": "true",
+                  "productPrice": "445452.0",
+                  "productImage": "/content/dam/wknd-spa-react/images/ktm-rc-200.jpg",
+                  "productDescription": "KTM Bike description"
+                }
+              }
+            }
+          },
+          "item1": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:content": {
+              "data": {
+                "master": {
+                  "jcr:primaryType": "nt:unstructured",
+                  "productName": "Tata Nexon",
+                  "available": "true",
+                  "productPrice": "324563.0",
+                  "productImage": "/content/dam/wknd-spa-react/images/Tata-Nexon.jpg",
+                  "productDescription": "Tata Nexon description"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
