@@ -1,0 +1,24 @@
+
+{
+  "logoPath": "/content/dam/wknd-spa-react/images/images.jpeg",
+  "logoAltText": "Brand Logo",
+  "links": {
+    "item0": {
+      "pageTitle": "Home",
+      "pageLink": "/content/wknd-spa-react/us/en/home"
+    },
+    "item1": {
+      "pageTitle": "Contact Us",
+      "pageLink": "/content/wknd-spa-react/us/en/contact-us"
+    },
+    "item2": {
+      "pageTitle": "About Us",
+      "pageLink": "/content/wknd-spa-react/us/en/about-us"
+    },
+    "item3": {
+      "pageTitle": "SignUp",
+      "pageLink": "/content/wknd-spa-react/us/en/signup"
+    }
+  },
+  ":type": "wknd-spa-react/components/navigation_menu"
+}

@@ -3,8 +3,6 @@ import { MapTo } from '@adobe/aem-react-editable-components';
 import './Navigation_Menu.css';
 
 function Navigation_Menu(props) {
-    console.log("Navigation_Menu props:", props);
-
     return (
         <div className='nav-container'>
             {props.logoPath && (
